@@ -1,0 +1,16 @@
+﻿<Window x:Class="MealPlanCalendar.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MealPlanCalendar"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+	<Grid>
+		<Button x:Name="MakeMealPlan" Content="Make Meal Plan" HorizontalAlignment="Center" Margin="0,47,0,0" VerticalAlignment="Top" Width="116" Height="46" Click="MakeMealPlan_Click"/>
+		<Button x:Name="ViewMealPlan" Content="View Meal Plan" HorizontalAlignment="Center" Margin="0,141,0,0" VerticalAlignment="Top" Width="116" Height="46" Click="ViewMealPlan_Click"/>
+		<Button x:Name="ViewGroceryList" Content="Grocery List" HorizontalAlignment="Center" Margin="0,225,0,0" VerticalAlignment="Top" Width="116" Height="46" Click="ViewGroceryList_Click"/>
+		<Button x:Name="AddDinnerItem" Content="Add A Meal" HorizontalAlignment="Center" Margin="0,315,0,0" VerticalAlignment="Top" Width="116" Height="46" Click="AddDinnerItem_Click"/>
+
+	</Grid>
+</Window>
